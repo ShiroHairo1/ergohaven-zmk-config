@@ -89,13 +89,13 @@
     keymap {
         compatible = "zmk,keymap";
 
-        en {
+        endv {
             bindings = <
-&kp GRAVE  &kp N1  &kp N2    &kp N3    &kp N4     &kp N5                          &kp N6  &kp N7     &kp N8     &kp N9    &kp N0    &kp BSPC
-&kp ESC    &kp Q   &kp W     &kp E     &kp R      &kp T                           &kp Y   &kp U      &kp I      &kp O     &kp P     &kp BSLH
-&kp TAB    &kp A   &kp S     &kp D     &kp F      &kp G                           &kp H   &kp J      &kp K      &kp L     &kp SEMI  &kp SQT
-&kp LSHFT  &kp Z   &kp X     &kp C     &kp V      &kp B   &kp LBKT     &kp RBKT   &kp N   &kp M      &kp COMMA  &kp DOT   &kp FSLH  &kp RSHFT
-                   &kp LGUI  &kp LALT  &kp LCTRL  &mo 2   &kp SPACE    &kp ENTER  &mo 3   &kp RCTRL  &kp RALT   &kp RGUI
+&kp GRAVE          &kp EXCLAMATION  &kp AT_SIGN  &kp POUND  &kp DOLLAR  &kp PERCENT                          &kp LCTRL  &kp AMPERSAND  &kp ASTRK  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp PLUS
+&kp DOUBLE_QUOTES  &kp COMMA        &kp DOT      &kp P      &kp Y       &kp F                                &kp G      &kp C          &kp R      &kp L                 &kp FSLH               &kp BSLH
+&kp A              &kp O            &kp E        &kp U      &kp I       &kp D                                &kp H      &kp T          &kp N      &kp S                 &kp MINUS              &kp APOS
+&kp SEMI           &kp Q            &kp J        &kp K      &kp X       &kp B        &kp LBKT     &kp RBKT   &kp M      &kp W          &kp V      &kp Z                 &kp RSHFT              &kp FSLH
+                                    &kp LGUI     &kp LALT   &kp LCTRL   &mo 2        &kp SPACE    &kp ENTER  &mo 3      &kp RCTRL      &kp RALT   &kp RGUI
             >;
 
             display-name = "Base";
@@ -141,7 +141,7 @@
 
         sym_en {
             bindings = <
-&trans  &trans     &kp AT    &kp DLLR   &kp HASH  &trans                       &trans     &trans    &kp CARET  &trans    &trans    &trans
+&trans  &kp N1     &kp N2    &kp N3     &kp N4    &kp N5                       &kp N6     &kp N7    &kp N8     &kp N9    &kp N0    &trans
 &trans  &trans     &kp LT    &kp EQUAL  &kp GT    &kp GRAVE                    &trans     &kp LBKT  &kp UNDER  &kp RBKT  &trans    &trans
 &trans  &kp BSLH   &kp LPAR  &kp MINUS  &kp RPAR  &kp PLUS                     &kp PRCNT  &kp LBRC  &kp SEMI   &kp RBRC  &kp EXCL  &kp QUESTION
 &trans  &kp COMMA  &kp STAR  &kp COLON  &kp FSLH  &trans     &trans    &trans  &trans     &kp PIPE  &kp TILDE  &kp AMPS  &kp DOT   &trans

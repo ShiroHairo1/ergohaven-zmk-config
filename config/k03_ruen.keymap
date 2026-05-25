@@ -94,7 +94,7 @@
 &kp GRAVE          &kp EXCLAMATION  &kp AT_SIGN  &kp POUND  &kp DOLLAR  &kp PERCENT                          &kp LCTRL  &kp AMPERSAND  &kp ASTRK  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp PLUS
 &kp DOUBLE_QUOTES  &kp COMMA        &kp DOT      &kp P      &kp Y       &kp F                                &kp G      &kp C          &kp R      &kp L                 &kp FSLH               &kp BSLH
 &kp A              &kp O            &kp E        &kp U      &kp I       &kp D                                &kp H      &kp T          &kp N      &kp S                 &kp MINUS              &kp APOS
-&kp SEMI           &kp Q            &kp J        &kp K      &kp X       &kp B        &kp LBKT     &kp RBKT   &kp M      &kp W          &kp V      &kp Z                 &kp RSHFT              &kp FSLH
+&kp SEMI           &kp Q            &kp J        &kp K      &kp X       &kp B        &kp LBKT     &kp RBKT   &kp M      &kp W          &kp V      &kp Z                 &kp RSHFT              &tog 1
                                     &kp LGUI     &kp LALT   &kp LCTRL   &mo 2        &kp SPACE    &kp ENTER  &mo 3      &kp RCTRL      &kp RALT   &kp RGUI
             >;
 

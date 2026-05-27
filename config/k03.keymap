@@ -28,7 +28,7 @@
         ls: ls {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp LC(SPACE) &tog 4>;
+            bindings = <&kp LC(SPACE) &tog 1>;
             label = "LS";
         };
     };
